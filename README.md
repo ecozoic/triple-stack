@@ -46,16 +46,19 @@ In order to support rapid development, I am taking advantage of the following sc
 1. Create-React-App - https://github.com/facebook/create-react-app 
 ```bash
 npm install -g create-react-app
+cd src/ui
 create-react-app react-app
 ```
 2. Angular CLI - https://cli.angular.io/ 
 ```bash
 npm install -g @angular/cli
+cd src/ui
 ng new angular-app
 ```
 3. Vue CLI - https://github.com/vuejs/vue-cli
 ```bash
 npm install -g @vue/cli
+cd src/ui
 vue create vue-app
 ```
 
@@ -63,21 +66,21 @@ vue create vue-app
 To start UI development servers:
 * React
 ```bash
-cd ui/react-app
+cd src/ui/react-app
 yarn start
 ```
 React app runs on http://localhost:8080
 
 * Angular
 ```bash
-cd ui/angular-app
+cd src/ui/angular-app
 npm start
 ```
 Angular app runs on http://localhost:4200
 
 * Vue
 ```bash
-cd ui/vue-app
+cd src/ui/vue-app
 yarn serve
 ```
 Vue app runs on http://localhost:8081
@@ -86,18 +89,18 @@ Vue app runs on http://localhost:8081
 To build UIs for production deployment:
 * React
 ```bash
-cd ui/react-app
+cd src/ui/react-app
 yarn build
 ```
 
 * Angular
 ```bash
-cd ui/angular-app
+cd src/ui/angular-app
 npm run build
 ```
 
 * Vue
 ```bash
-cd ui/vue-app
+cd src/ui/vue-app
 yarn build
 ```
