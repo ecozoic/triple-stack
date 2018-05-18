@@ -44,5 +44,17 @@ Stretch Goals:
 ## Scaffolding
 In order to support rapid development, I am taking advantage of the following scaffolding tools/CLIs:
 1. Create-React-App - https://github.com/facebook/create-react-app 
+```bash
+npm install -g create-react-app
+create-react-app react-app
+```
 2. Angular CLI - https://cli.angular.io/ 
+```bash
+npm install -g @angular/cli
+ng new angular-app
+```
 3. Vue CLI - https://github.com/vuejs/vue-cli
+```bash
+npm install -g @vue/cli
+vue create vue-app
+```
