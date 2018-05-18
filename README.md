@@ -58,3 +58,46 @@ ng new angular-app
 npm install -g @vue/cli
 vue create vue-app
 ```
+
+## Development
+To start UI development servers:
+* React
+```bash
+cd ui/react-app
+yarn start
+```
+React app runs on http://localhost:8080
+
+* Angular
+```bash
+cd ui/angular-app
+npm start
+```
+Angular app runs on http://localhost:4200
+
+* Vue
+```bash
+cd ui/vue-app
+yarn serve
+```
+Vue app runs on http://localhost:8081
+
+## Production
+To build UIs for production deployment:
+* React
+```bash
+cd ui/react-app
+yarn build
+```
+
+* Angular
+```bash
+cd ui/angular-app
+npm run build
+```
+
+* Vue
+```bash
+cd ui/vue-app
+yarn build
+```
